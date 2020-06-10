@@ -6401,7 +6401,6 @@ void test_nghttp2_submit_origin(void) {
 void test_nghttp2_submit_rst_stream(void) {
   nghttp2_session *session;
   nghttp2_session_callbacks callbacks;
-  nghttp2_mem *mem;
   nghttp2_outbound_item *item;
   int rv;
   int32_t stream_id;

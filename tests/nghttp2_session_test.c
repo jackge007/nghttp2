@@ -6405,7 +6405,6 @@ void test_nghttp2_submit_rst_stream(void) {
   int rv;
   int32_t stream_id;
 
-  mem = nghttp2_mem_default();
   memset(&callbacks, 0, sizeof(nghttp2_session_callbacks));
 
   /* Sending RST_STREAM to idle stream (local) is ignored */
